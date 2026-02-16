@@ -1,0 +1,49 @@
+#root {
+  background: linear-gradient(to right, #6c7eed, #ce13e2);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  color: blue;
+}
+
+#inputholder {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+
+#inputuser {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+
+  input{
+    border: none;
+    outline: none;
+  }
+}
+
+
+
+#omorrrr{
+  border-bottom: 1px solid black;
+}
