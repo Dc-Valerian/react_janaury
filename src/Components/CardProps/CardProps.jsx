@@ -1,13 +1,12 @@
 import React from "react";
-import "./CardProp.css";
 
-const CardProps = ({ cardImage, h3, p }) => {
+const CardProps = ({ name, gender, age, location }) => {
   return (
-    <div className="card-props">
-      <img src={cardImage} alt="francesImage" className="card-image" />
-      <h3>{h3}</h3>
-      <p>{p}</p>
-      <button>ReadMore</button>
+    <div>
+      <h2>{name}</h2>
+      <p>Gender:{gender}</p>
+      <p>Age:{age}</p>
+      <p>Location:{location}</p>
     </div>
   );
 };
